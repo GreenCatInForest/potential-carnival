@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Number Base Converter</title>
+  </head>
+  <body>
+    <header>
+      <h1>Number Base Converter</h1>
+      <p>Convert any number to any base.</p>
+    </header>
+    <main>
+      <!-- <form action="" id="numberBaseConverter">
+        <fieldset>
+          <label for="numberCurrent">Choose the number</label>
+          <input
+            type="number"
+            id="numberCurrent"
+            name="numberCurrent"
+            placeholder="Number to convert"
+            required
+          />
+          <label for="baseCurrent">From the base</label>
+          <input
+            type="number"
+            id="baseCurrent"
+            name="baseCurrent"
+            placeholder="Current base"
+            required
+          />
+          <label for="baseToConvert">To the base</label>
+          <input
+            type="number"
+            id="baseToConvert"
+            name="baseToConvert"
+            placeholder="New base"
+            required
+          />
+        </fieldset>
+        <button type="button" onclick="getConvert()">Convert</button>
+        <button type="button">Reset</button>
+        <button type="button">Swap</button>
+      </form> -->
+      <div id="inputsWrapper">
+        <label for="numberCurrent">write the number:</label>
+        <input
+          type="number"
+          id="numberCurrent"
+          name="numberCurrent"
+          placeholder="Number to convert"
+        />
+        <label for="baseCurrent">from the base</label>
+        <input
+          type="number"
+          id="baseCurrent"
+          name="baseCurrent"
+          placeholder="Current base"
+        />
+        <label for="baseToConvert">to the base</label>
+        <input
+          type="number"
+          id="baseToConvert"
+          name="baseToConvert"
+          placeholder="New base"
+        />
+      </div>
+      <div id="resultConvertedNumber"></div>
+      <div id="buttonsWrapper">
+        <button type="button" id="b1" onclick="getConvert()">Convert</button>
+        <button type="button" onclick="getReset()">Reset</button>
+        <button type="button" onclick="getSwap()">Swap</button>
+      </div>
+    </main>
+    <footer><p>Here is footer</p></footer>
+  </body>
+</html>
