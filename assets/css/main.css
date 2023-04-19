@@ -61,14 +61,14 @@ button {
   padding: var(--sizeLg);
 }
 
-#resultConvertedNumber {
+/* #resultConvertedNumber {
   display: none;
-}
+}*/
 
 /* Header */
 
 header {
-  background-image: url("/potential-carnival/assets/image/background-5594879_1920.jpg");
+  background-image: url("/assets/image/background-5594879_1920.jpg");
   background-size: contain;
 }
 
